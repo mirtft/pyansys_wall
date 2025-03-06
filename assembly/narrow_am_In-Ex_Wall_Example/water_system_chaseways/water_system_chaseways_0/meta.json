@@ -1,0 +1,29 @@
+{
+  "axis_length": 6120.988052417035,
+  "start_junction": {
+    "type": "WallJunction",
+    "change_coordinates": [
+      1000.0,
+      0.0,
+      0.0
+    ],
+    "change_face_normal": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "end_junction": {
+    "type": "WallJunction",
+    "change_coordinates": [
+      3999.999999999959,
+      0.0,
+      4000.0
+    ],
+    "change_face_normal": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}
