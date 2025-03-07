@@ -4,3 +4,7 @@ def run_explode():
     explode('narrow_am_inex_wall_v2.assembly.json')
 
 
+
+
+# run_explode()
+
