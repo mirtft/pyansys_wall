@@ -1,10 +1,11 @@
 # pyansys_wall
 
 # make a virtual enviroment
-python3 -m venv /.venv
+python -m venv /.venv
 
 # change to the virtual enviromment directory and activate it
-cd .venv && source bin/activate
+cd .venv
+source bin/activate
 
 # Install pip
 python -m pip install -U pip
