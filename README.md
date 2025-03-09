@@ -16,5 +16,8 @@ python -m pip install --upgrade pip
 # install pyansys
 python -m pip install pyansys
 
+# explode json into a folder
+python explode_assembly.py narrow_am_inex_wall_v2.assembly.json ./
+
 # open pyansys_wall.py
 # 
