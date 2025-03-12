@@ -4,6 +4,7 @@
 # In the panel at the bottom go to Terminal
 # Copy paste the non-hashed lines into terminal and hit enter to execute the line
 
+# First Time through
 # make a virtual enviroment
 # macos
 python -m venv ./.venv
@@ -33,5 +34,10 @@ python explode_assembly.py narrow_am_inex_wall_v2.assembly.json ./
 # Windows
 python explode_assembly.py narrow_am_inex_wall_v2.assembly.json .\
 
+
+# Subsequent times through
+cd .venv
+.\Scripts\Activate.ps1
+cd ..
 # open pyansys_wall.py
 # 
