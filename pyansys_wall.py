@@ -18,4 +18,6 @@ MAPDLexec_file = os.path.join(MAPDLpath, "MAPDL.exe")
 #save_mechanical_path(wbpath)
 
 mechanical = launch_mechanical(wbexec_file)
-mapdl = launch_mapdl(MAPDLexec_file)
+# mapdl = launch_mapdl(MAPDLexec_file)
+
+

@@ -36,8 +36,10 @@ python explode_assembly.py narrow_am_inex_wall_v2.assembly.json .\
 
 
 ## Subsequent times through start here
+## Skip if first time through
 cd .venv
 .\Scripts\Activate.ps1
 cd ..
-# open pyansys_wall.py
+
+## open pyansys_wall.py
 # 
