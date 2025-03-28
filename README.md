@@ -4,7 +4,7 @@
 # In the panel at the bottom go to Terminal
 # Copy paste the non-hashed lines into terminal and hit enter to execute the line
 
-# First Time through
+## First Time through
 # make a virtual enviroment
 # macos
 python -m venv ./.venv
@@ -35,7 +35,7 @@ python explode_assembly.py narrow_am_inex_wall_v2.assembly.json ./
 python explode_assembly.py narrow_am_inex_wall_v2.assembly.json .\
 
 
-# Subsequent times through
+## Subsequent times through start here
 cd .venv
 .\Scripts\Activate.ps1
 cd ..
