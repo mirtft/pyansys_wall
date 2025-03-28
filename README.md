@@ -6,19 +6,26 @@
 
 ## First Time through
 # make a virtual enviroment
+cd ..
+cd ..
+
 # macos
-python -m venv ./.venv
+cd ./virtualenvs
+python -m venv ./.PYANSYS_WALL
 # windows
-python -m venv .\.venv
+cd .\virtualenvs
+python -m venv .\.PYANSYS_WALL
 
 # change to the virtual enviromment directory and activate it
-cd .venv
+cd .PYANSYS_WALL
 # mac os
 source bin/activate
 # windows, note this sets PowerShell to run as administrator for this command, and sets all scripts as unrestricted
 Start-Process powershell -Verb runAs -ArgumentList "-command", "Set-ExecutionPolicy"
+# in the powershell terminal that pops up, use the following commands
 Unrestricted
 Y
+# In the original VS Code terminal use the following command
 .\Scripts\Activate.ps1
 
 # Upgrade pip
