@@ -1,5 +1,15 @@
 # pyansys_wall
 
+# Make three folders in your user directory:
+# .virtualenvs
+# git
+# tmp
+
+# Install VS Code on your computer
+# Install git on your computer
+# In VS Code install python extension (cntl+shift+x to get to the extension side panel)
+# In VS Code clone the pyansys_wall git repository to your git folder
+
 # In VS Code, go to View - Appearance - Panel
 # In the panel at the bottom go to Terminal
 # Copy paste the non-hashed lines into terminal and hit enter to execute the line
@@ -13,7 +23,7 @@ cd ..
 cd ./virtualenvs
 python -m venv ./.PYANSYS_WALL
 # windows
-cd .\virtualenvs
+cd .\.virtualenvs
 python -m venv .\.PYANSYS_WALL
 
 # change to the virtual enviromment directory and activate it
