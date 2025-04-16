@@ -1,4 +1,5 @@
-# pyansys_wall
+# pyansys_wall - This GitHub version is archived. For up to date version see:
+# https://gitlab.com/composites-maine-edu/ornl-hub-and-spoke-biomaterials/pyansys_wall.git
 
 # Make three folders in your user directory:
 # .virtualenvs
